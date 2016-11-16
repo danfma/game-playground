@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/game-playground.iml" filepath="$PROJECT_DIR$/game-playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/play01/play01.iml" filepath="$PROJECT_DIR$/play01/play01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/play02/play02.iml" filepath="$PROJECT_DIR$/play02/play02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/play03/play03.iml" filepath="$PROJECT_DIR$/play03/play03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/play04/play04.iml" filepath="$PROJECT_DIR$/play04/play04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/play05/play05.iml" filepath="$PROJECT_DIR$/play05/play05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/play06/play06.iml" filepath="$PROJECT_DIR$/play06/play06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/play07/play07.iml" filepath="$PROJECT_DIR$/play07/play07.iml" />
+    </modules>
+  </component>
+</project>
