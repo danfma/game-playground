@@ -13,6 +13,8 @@
         <module name="play05" />
         <module name="play06" />
         <module name="play07" />
+        <module name="play08" />
+        <module name="play09" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +26,8 @@
       <module name="play05" target="1.5" />
       <module name="play06" target="1.5" />
       <module name="play07" target="1.5" />
+      <module name="play08" target="1.5" />
+      <module name="play09" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

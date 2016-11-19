@@ -14,6 +14,8 @@
         <module>play05</module>
         <module>play06</module>
         <module>play07</module>
+        <module>play08</module>
+        <module>play09</module>
     </modules>
     <packaging>pom</packaging>
 
