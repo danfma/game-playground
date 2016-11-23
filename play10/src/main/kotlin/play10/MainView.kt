@@ -1,11 +1,11 @@
-package play09
+package play10
 
 import javafx.animation.AnimationTimer
 import javafx.geometry.Point2D
 import javafx.scene.Group
-import play09.engine.TimeElapsed
-import play09.engine.updateOnlyUpdatables
-import play09.objects.myBox
+import play10.engine.TimeElapsed
+import play10.engine.updateOnlyUpdatables
+import play10.objects.fireSource
 import tornadofx.View
 
 class MainView : View() {
@@ -17,12 +17,8 @@ class MainView : View() {
         primaryStage.isResizable = false
 
         with(root) {
-            myBox {
-                position = Point2D(100.0, 200.0)
-            }
-
-            myBox {
-                position = Point2D(300.0, 200.0)
+            fireSource {
+                position = Point2D(WINDOW_SIZE / 2.0, WINDOW_SIZE - 40)
             }
         }
 
@@ -32,7 +28,7 @@ class MainView : View() {
     private fun start() {
         val nanoToMillisecondRatio = 1000000L
         val startTime = System.nanoTime()
-        var lastTime = startTime
+        var lastTime = 0L
 
         val timer = object : AnimationTimer() {
             override fun handle(now: Long) {
