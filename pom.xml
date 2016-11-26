@@ -17,6 +17,7 @@
         <module>play08</module>
         <module>play09</module>
         <module>play10</module>
+        <module>play11</module>
     </modules>
     <packaging>pom</packaging>
 
